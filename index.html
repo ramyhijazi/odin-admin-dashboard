@@ -1,17 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="container">
-        <div class="header">Header</div>
-        <div class="sidebar">Sidebar</div>
-        <div class="body">Body</div>
-        <div class="misc">Misc</div>
+      <div class="header">
+        <div class="header-content-container">
+          <div class="header-upper-content">
+            <div class="navbar">
+              <p>🔎</p>
+              <input class="search-bar"/>
+            </div>
+            <div class="notifications">
+                <p>🔔</p> <img src="caticon.png" class="profile-picture" /> <p class="username"> Elliot Alderson </p>
+            </div>
+          </div>
+          <div class="header-lower-content">
+            <div class="user-info">
+              <img src="caticon.png" class="profile-picture" />
+              <p class="username">Hello, Elliot.</p>
+              <p class="username">(@elliotalderson)</p>
+            </div>
+
+            <div class="header-buttons">
+              <button>New</button>
+              <button>Upload</button>
+              <button>Share</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="sidebar-content">
+        <h1 id="title">Dashboard</h1>
+        <div class="toolbar">
+          <ul>
+            <li>Home</li>
+            <li>My Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li>Communities</li>
+          </ul>
+
+          <ul>
+            <li>Settings</li>
+            <li>Support</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <div class="body">
+        <h1 style="color: black; padding: 5px;"> My Projects </h1>
+        <div class="body-content-container">
+          <div class="body-content">
+            <h6 class="content-title">Project</h6>
+            <p class="content-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, esse.</p>
+          </div>
+          <div class="body-content">
+            <h6 class="content-title">Project</h6>
+            <p class="content-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, esse.</p>
+          </div>
+          <div class="body-content">
+            <h6 class="content-title">Project</h6>
+            <p class="content-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, esse.</p>
+          </div>
+          <div class="body-content">
+            <h6 class="content-title">Project</h6>
+            <p class="content-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, esse.</p>
+          </div>
+          <div class="body-content">
+            <h6 class="content-title">Project</h6>
+            <p class="content-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, esse.</p>
+          </div>
+          <div class="body-content">
+            <h6 class="content-title">Project</h6>
+            <p class="content-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, esse.</p>
+          </div>
+        </div>
+      </div>
+      <div class="misc">
+        <div class="misc-title"> <h1>Announcements</h1></div>
+        <div class="misc-content-container">
+        <div class="misc-top-content">
+          <h6 style="color: black; padding: 10px; font-size: 20px; margin: 0;"> An Announcement </h6>
+          <p style="color: rgb(168, 168, 168); padding: 10px; font-size: 10px; margin: 0;"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero excepturi hic maiores corrupti, possimus amet molestiae illo ullam quia.</p>
+          <h6 style="color: black; padding: 10px; font-size: 20px; margin: 0;"> Another Announcement </h6>
+          <p style="color: rgb(168, 168, 168); padding: 10px; font-size: 10px; margin: 0;"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero excepturi hic maiores corrupti, possimus amet molestiae illo ullam quia.</p>
+        </div>
+        <div class="misc-title"> <h1>Trending</h1></div>
+        <div class="misc-bottom-content">
+          <h6 style="color: rgb(0, 153, 255);; padding: 10px; font-size: 20px; margin: 0;"> #Gym </h6>
+          <p style="color: rgb(168, 168, 168); padding: 10px; font-size: 10px; margin: 0;"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero excepturi hic maiores corrupti, possimus amet molestiae illo ullam quia.</p>
+          <h6 style="color: rgb(0, 153, 255);; padding: 10px; font-size: 20px; margin: 0;"> #ForYou </h6>
+          <p style="color: rgb(168, 168, 168); padding: 10px; font-size: 10px; margin: 0;"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero excepturi hic maiores corrupti, possimus amet molestiae illo ullam quia.</p>
+        </div>
+      </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
